@@ -3,8 +3,8 @@
 ## Setting up an SSH key between cs50 IDE and Github
 
 ### Make sure your user info is configured locally
-`git config --global user.email "you@example.com"`
-`git config --global user.name "Your Name"`
+* `git config --global user.email "you@example.com"`
+* `git config --global user.name "Your Name"`
 
 ### Generate an SSH key
 * `cd ~` makes sure you are in the root directory
