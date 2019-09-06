@@ -34,9 +34,9 @@ Host github.com
 * Now you are able to right-click on a file (i.e. HTML or Markdown) and click *Preview*
   * On a Mac, if you have a mouse with no right-click, hold <kbd>CONTROL</kbd> then click
 * Tip 1: Drag the new tab that appeared to the right side of your IDE (similar to the image below)
-!(preview-in.png)
+![](preview-in.png)
 * Tip 2: Use the pop-out icon to preview outside the IDE (similar to the image below)
-!(preview-out.png)
+![](preview-out.png)
 
 ## Enable Auto-Save
 * If you closed the Preferences tab, re-open it: *CS50 IDE* > Preferences
