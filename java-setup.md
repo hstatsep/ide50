@@ -30,7 +30,7 @@ class Main {
 
 ## Hello World
 ```
-cd U0
+cd u0
 mkdir HelloWorld
 cd HelloWorld
 touch Main.java
