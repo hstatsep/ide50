@@ -25,7 +25,7 @@ Host github.com
  Hostname ssh.github.com
  Port 443
 ```
-* <kbd>CTRL</kbd>+<kbd>X</kbd> to exit, then press <kbd>Y</kbd> then <kbd>ENTER</kbd>
+* <kbd>control</kbd>+<kbd>X</kbd> to exit, then press <kbd>Y</kbd> then <kbd>ENTER</kbd>
 * `ssh -T git@github.com`
 * Type `yes`, press <kbd>ENTER</kbd>, and you should see
 > Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
