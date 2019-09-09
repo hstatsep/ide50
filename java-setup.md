@@ -41,7 +41,7 @@ touch Main.java
 * You should see `Hello World` in your terminal
 
 * As a general rule of thumb, use this same format when making new programs (`cd` into the correct directory, make a folder with the appropriate name, `cd` into it, then name your file `Main.java` which will then get compiled to `Main.class`)
-* As a shortcut, you can copy with the `cp source destination` command. I.e. once you make your `HelloWorld` directory and `cd` into it, you could do `cp ~/java/java-apcsa/template.java ./Main.java`
+  * As a shortcut, you can copy with the `cp source destination` command. I.e. once you make your `HelloWorld` directory and `cd` into it, you could do `cp ~/java/java-apcsa/template.java ./Main.java`
 
 ## Java compile and run
 #### Setting this up allows you to compile and run in the same command
