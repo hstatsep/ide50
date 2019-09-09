@@ -1,6 +1,6 @@
 # Java Setup
 
-## Organizing all of your Java classwork
+## Make sure future java classwork is organized
 ```
 cd ~
 mkdir java
