@@ -44,7 +44,7 @@ touch Main.java
 * As a shortcut, you can copy with the `cp source destination` command. I.e. once you make your `HelloWorld` directory and `cd` into it, you could do `cp ~/java/java-apcsa/template.java ./Main.java`
 
 ## Java compile and run
-#### Setting up this command allows you to compile and run in the same command
+#### Setting this up allows you to compile and run in the same command
 `nano ~/.bash_profile`  
 Paste the following:
 `jcar() { javac $1.java && java $1 ; }`
