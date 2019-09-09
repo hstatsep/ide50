@@ -52,22 +52,3 @@ Do `control+X` to quit, `Y` to save
 #### To use, type `jcar Program` (using your own Java program file, but with no .java)
 * Try this out by adding `!` to your **Hello World** program so that it outputs `Hello World!`
 * Run the shortcut by doing `jcar Main`
-
-
-## Creating an alias to make adding/committing/pushing faster
-`nano ~/.bash_profile`
-Paste the following  
-```
-# -------
-# Aliases
-# -------
-alias gp="git add --all
-git commit -m \"update repo\"
-git push"
-
-```
-Then do `control+X` to exit, press `y` to save, press `enter` to confirm  
-Restart the terminal  
-Make sure a file is modified, then try `gp`
-
-Source: https://jonsuh.com/blog/bash-command-line-shortcuts/
