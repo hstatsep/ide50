@@ -4,11 +4,11 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 
 ## Setting up an SSH key between cs50 IDE and Github
 
-#### Configure your user info
+#### Configuring your user info
 * `git config --global user.email "you@example.com"`
 * `git config --global user.name "Your Name"`
 
-#### Generate and connect an SSH key
+#### Generating and connecting an SSH key
 * `cd ~` makes sure you are in the root directory
 * `ls -al ~/.ssh` you should see no files that start with `id_rsa`
 * `ssh-keygen -t rsa -b 4096 -C "you@example.com"` generates a new SSH key (press <kbd>ENTER</kbd> to save default file path; press <kbd>ENTER</kbd> again (twice) to leave the passphrase blank)
@@ -30,7 +30,7 @@ Host github.com
 * Type `yes`, press <kbd>ENTER</kbd>, and you should see
 > Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
 
-## Enable Preview
+## Enabling Preview
 * In the top-left corner of the IDE, click **CS50 IDE** > Preferences
 * When the new window opens, on the LEFT side, click **User Settings**
 * On the RIGHT side, toggle **Enable Preview** to **ON**
@@ -41,7 +41,7 @@ Host github.com
 * Tip 2: Use the pop-out icon to preview outside the IDE _(similar to the image below)_
 ![](preview-out.png)
 
-## Enable Auto-Save
+## Enabling Auto-Save
 * If you closed the Preferences tab, re-open it: **CS50 IDE** > Preferences
 * When the new window opens, on the LEFT side, click **Experimental**
 * On the RIGHT side, change the **Auto-Save** dropdown to **On Focus Change**
