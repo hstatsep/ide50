@@ -7,7 +7,7 @@ mkdir java
 cd java
 mkdir java-apcsa
 cd java-apcsa
-mkdir U0 U1 U2 U3 U4 U5 U6 U7 U8 U9
+mkdir u0 u1 u2 u3 u4 u5 u6 u7 u8 u9
 ```
 
 ## Make a template file
