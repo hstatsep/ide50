@@ -7,7 +7,7 @@ mkdir java
 cd java
 mkdir java-apcsa
 cd java-apcsa
-mkdir u0 u1 u2 u3 u4 u5 u6 u7 u8 u9
+mkdir u0-other u1-intro u2-conditionals-loops u3-strings-1d-arrays u4-methods u5-user-classes u6-advanced-classes u7-algorithms u8-2d-arrays u9-ap-review
 ```
 
 ## Make a template file
