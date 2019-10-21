@@ -10,7 +10,7 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 
 #### Generating and connecting an SSH key
 * `cd ~` makes sure you are in the root directory
-* `ssh-keygen -t rsa -b 4096 -C "you@example.com"` then DO NOT ENTER A PASSPHRASE; instead, press <kbd>ENTER</kbd> repeatedly until you see something like:
+* `ssh-keygen -t rsa -b 4096 -C "you@example.com"` then press <kbd>ENTER</kbd> repeatedly until you see something like:
 ```
 The key's randomart image is:
 +--[ RSA 4096]----+
