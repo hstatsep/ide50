@@ -10,8 +10,7 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 
 #### Generating and connecting an SSH key
 * `cd ~` makes sure you are in the root directory
-* `ls -al ~/.ssh` you should see no files that start with `id_rsa`
-* `ssh-keygen -t rsa -b 4096 -C "you@example.com"` generates a new SSH key (press <kbd>ENTER</kbd> to save default file path; press <kbd>ENTER</kbd> again (twice) to leave the passphrase blank)
+* `ssh-keygen -t rsa -b 4096 -C "you@example.com"` then press <kbd>ENTER</kbd> 4 times
 * `eval "$(ssh-agent -s)"` starts the agent in the background
 * `ls -al ~/.ssh` you should now see a file named `id_rsa.pub`
 * `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard
