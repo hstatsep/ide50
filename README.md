@@ -27,7 +27,7 @@ The key's randomart image is:
 ```
 * `eval "$(ssh-agent -s)"` starts the agent in the background
 * `ls -al ~/.ssh` you should now see a file named `id_rsa.pub`
-* `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa` and end with your email address
+* `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa` and end with your email address)
 * Go to https://github.com/settings/keys > New SSH Key
   * Title: ide50
   * Key: paste your ssh key
