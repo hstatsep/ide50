@@ -31,6 +31,7 @@ The key's randomart image is:
 * Go to https://github.com/settings/keys > New SSH Key
   * Title: ide50
   * Key: paste your ssh key
+  * Press the green **Add SSH key** button
 * Back in your cs50 IDE, do `sudo nano ~/.ssh/config`
 * Paste the following:
 ```
