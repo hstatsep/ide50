@@ -21,7 +21,7 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
   * Example: `git config --global user.name "John Doe"`
 
 #### Generating and connecting an SSH key
-* `cd ~` makes sure you are in the root directory
+* Make sure you are in the root directory by doing `cd ~`
 * `ssh-keygen -t rsa -b 4096 -C "you@example.com"` then slowly press <kbd>ENTER</kbd> repeatedly until you see something like:
 ```
 The key's randomart image is:
