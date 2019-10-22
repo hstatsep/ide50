@@ -5,7 +5,8 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 ## Setting up an SSH key between cs50 IDE and Github
 
 #### Configuring your user info
-* In your command line, type (don't copy/paste) the following: `git config --global user.email "you@example.com"`
+* In your command line, type the following: `git config --global user.email "you@example.com"`
+  * Don't copy/paste.
   * Remember to use YOUR email address.
   * YES, you need the quotes.
   * Example: `git config --global user.email "johnd1234@hstat.org"`
