@@ -1,5 +1,7 @@
 # ide50
 
+## FOR EACH SECTION, READ EVERYTHING BEFORE YOU DO ANYTHING
+
 Leave this window on the left half of your screen so that you can READ the directions.  
 
 Open a new window on the right half of your screen so that you can FOLLOW the directions.
@@ -9,6 +11,7 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 ## Setting up an SSH key between cs50 IDE and Github
 
 #### Configuring your user info
+
 * In your command line, type the following: `git config --global user.email "you@example.com"`
   * Don't copy/paste.
   * Remember to use YOUR email address.
