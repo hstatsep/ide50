@@ -5,12 +5,16 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 ## Setting up an SSH key between cs50 IDE and Github
 
 #### Configuring your user info
-* `git config --global user.email "you@example.com"`
+* In your command line, type (don't copy/paste) the following: `git config --global user.email "you@example.com"`
+  * Remember to use YOUR email address.
+  * YES, you need the quotes.
+  * Example: `git config --global user.email "johnd1234@hstat.org"`
 * `git config --global user.name "Your Name"`
+  * Example: `git config --global user.name "John Doe"`
 
 #### Generating and connecting an SSH key
 * `cd ~` makes sure you are in the root directory
-* `ssh-keygen -t rsa -b 4096 -C "you@example.com"` then press <kbd>ENTER</kbd> repeatedly until you see something like:
+* `ssh-keygen -t rsa -b 4096 -C "you@example.com"` then slowly press <kbd>ENTER</kbd> repeatedly until you see something like:
 ```
 The key's randomart image is:
 +--[ RSA 4096]----+
