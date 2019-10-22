@@ -10,7 +10,7 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
   * Remember to use YOUR email address.
   * YES, you need the quotes.
   * Example: `git config --global user.email "johnd1234@hstat.org"`
-* `git config --global user.name "Your Name"`
+* Then type `git config --global user.name "Your Name"`
   * Example: `git config --global user.name "John Doe"`
 
 #### Generating and connecting an SSH key
