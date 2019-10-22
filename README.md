@@ -70,7 +70,7 @@ Host github.com
 
 ## Enabling Auto-Save
 * If you closed the Preferences tab, re-open it: **CS50 IDE** > Preferences
-* When the new window opens, on the LEFT side, click **Experimental**
+* When the new window opens, on the LEFT side, scroll down and click **Experimental**
 * On the RIGHT side, change the **Auto-Save** dropdown to **On Focus Change**
 * You're done!
   * This means that in the future, when editing a file, you will be see a red dot in the tab, next to the filename
