@@ -7,7 +7,7 @@ mkdir java
 cd java
 mkdir java-apcsa
 cd java-apcsa
-mkdir u0-other u1-intro u2-conditionals-loops u3-strings-1d-arrays u4-methods u5-user-classes u6-advanced-classes u7-algorithms u8-2d-arrays u9-ap-review
+mkdir u00-other u01-primitives u02-objects u03-booleans-ifs u04-iteration u05-classes u06-arrays u07-arraylist u08-2d-arrays u09-inheritance u10-recursion u11-ap-prep
 ```
 
 ## Make a template file
@@ -30,7 +30,7 @@ class Main {
 
 ## Hello World
 ```
-cd u0
+cd u00-other
 mkdir HelloWorld
 cd HelloWorld
 touch Main.java
