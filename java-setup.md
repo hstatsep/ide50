@@ -49,6 +49,6 @@ touch Main.java
 Paste the following:  
 `jcar() { javac $1.java && java $1 ; }`  
 Do <kbd>control</kbd>+<kbd>X</kbd> to quit, <kbd>Y</kbd> to save, then press <kbd>ENTER</kbd>
-#### To use, type `jcar Program` (using your own Java program file, but with no .java)
+#### To use, type `jcar Program` (using your own Java program file, but with no `.java`)
 * Try this out by adding `!` to your **Hello World** program so that it outputs `Hello World!`
 * Run the shortcut by doing `jcar Main`
