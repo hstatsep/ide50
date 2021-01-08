@@ -2,7 +2,7 @@
 
 ## FOR EACH SECTION, READ EVERYTHING BEFORE YOU DO ANYTHING
 
-Leave this window on the left half of your screen so that you can READ the directions.  
+Leave this window on the left half of your screen so that you can READ the directions.
 
 Open a new window on the right half of your screen so that you can FOLLOW the directions.
 
@@ -21,39 +21,24 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
   * Example: `git config --global user.name "John Doe"`
 
 #### Generating and connecting an SSH key
-* Make sure you are in the root directory by doing `cd ~`
-* `ssh-keygen -t rsa -b 4096 -C "you@example.com"` then slowly press <kbd>ENTER</kbd> repeatedly until you see something like:
-```
-The key's randomart image is:
-+--[ RSA 4096]----+
-|       .o o..    |
-|       o +Eo     |
-|        + .      |
-|         . + o   |
-|        S o = * o|
-|           . o @.|
-|            . = o|
-|           . o   |
-|            o.   |
-+-----------------+
-```
-* `eval "$(ssh-agent -s)"` starts the agent in the background
-* `ls -al ~/.ssh` you should now see a file named `id_rsa.pub`
-* `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa` and end with your email address)
-* Go to https://github.com/settings/keys > New SSH Key
+* Make sure you are in the root directory by doing `cd`
+* `echo -e "\n" | ssh-keygen -t rsa -N ""`
+* `cat /home/ubuntu/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa`)
+* Go to https://github.com/settings/ssh/new
   * Title: ide50
   * Key: paste your ssh key
   * Press the green **Add SSH key** button
-* Back in your cs50 IDE, do `sudo nano ~/.ssh/config`
-* Paste the following:
+* Back in your cs50 IDE, copy/paste the following
 ```
-Host github.com
- Hostname ssh.github.com
- Port 443
+echo 'Host github.com' >> /home/ubuntu/.ssh/config
+echo ' Hostname ssh.github.com' >> /home/ubuntu/.ssh/config
+echo ' Port 443' >> /home/ubuntu/.ssh/config
+echo ' StrictHostKeyChecking no' >> /home/ubuntu/.ssh/config
+ssh -T git@github.com
+
 ```
-* <kbd>control</kbd>+<kbd>X</kbd> to exit, then press <kbd>Y</kbd> then <kbd>ENTER</kbd>
-* `ssh -T git@github.com`
-* Type `yes`, press <kbd>ENTER</kbd>, and you should see
+* If you still see the last command in your terminal, press <kbd>ENTER</kbd>  
+You should see
 > Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
 
 ## Enabling Preview
@@ -71,13 +56,9 @@ Host github.com
 ## Enabling Auto-Save
 * If you closed the Preferences tab, re-open it: **CS50 IDE** > Preferences
 * When the new window opens, on the LEFT side, scroll down and click **Experimental**
-* On the RIGHT side, change the **Auto-Save** dropdown to **On Focus Change**
+* On the RIGHT side, change the **Auto-Save** dropdown to **On Delay**
 * You're done!
   * This means that in the future, when editing a file, you will be see a red dot in the tab, next to the filename
   * A red dot means there are unsaved changes
-  * When you change (i.e. "focus") to a different window (i.e. "preview"), the red dot will turn green, then back to an **X**
+  * After you stop typing, the red dot will turn back to an **X**
 * You can also force a save by going to **File** > **Save** or using the keyboard shortcut (i.e. <kbd>⌘</kbd>+<kbd>S</kbd>)
-
-#### Sources:
-* https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account
-* https://stackoverflow.com/questions/15589682/ssh-connect-to-host-github-com-port-22-connection-timed-out
