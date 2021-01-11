@@ -23,17 +23,17 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 #### Generating and connecting an SSH key
 * Make sure you are in the root directory by doing `cd`
 * `echo -e "\n" | ssh-keygen -t rsa -N ""`
-* `cat /home/ubuntu/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa`)
+* `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa`)
 * Go to https://github.com/settings/ssh/new
   * Title: ide50
   * Key: paste your ssh key
   * Press the green **Add SSH key** button
 * Back in your cs50 IDE, copy/paste the following
 ```
-echo 'Host github.com' >> /home/ubuntu/.ssh/config
-echo ' Hostname ssh.github.com' >> /home/ubuntu/.ssh/config
-echo ' Port 443' >> /home/ubuntu/.ssh/config
-echo ' StrictHostKeyChecking no' >> /home/ubuntu/.ssh/config
+echo 'Host github.com' >> ~/.ssh/config
+echo ' Hostname ssh.github.com' >> ~/.ssh/config
+echo ' Port 443' >> ~/.ssh/config
+echo ' StrictHostKeyChecking no' >> ~/.ssh/config
 ssh -T git@github.com
 
 ```
