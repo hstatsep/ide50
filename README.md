@@ -37,9 +37,13 @@ echo ' StrictHostKeyChecking no' >> ~/.ssh/config
 ssh -T git@github.com
 
 ```
-* If you still see the last command in your terminal, press <kbd>ENTER</kbd>  
+* If you still see the last command in your terminal, press <kbd>ENTER</kbd>
 You should see
 > Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
+
+_WARNING: ONLY if you made a mistake, type this command to DELETE your SSH keys and start over:_
+
+`rm -rf ~/.ssh`
 
 ## Enabling Preview
 * In the top-left corner of the IDE, click **CS50 IDE** > Preferences
