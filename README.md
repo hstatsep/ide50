@@ -23,7 +23,8 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
 #### Generating and connecting an SSH key
 * Copy/paste the following:
 * `echo -e "\n" | ssh-keygen -t rsa -N ""`
-* `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa`)
+* `cat ~/.ssh/id_rsa.pub`
+  * Copy _all_ of the result to your clipboard (it should start with `ssh-rsa`)
 * Go to https://github.com/settings/ssh/new
   * Title: ide50
   * Key: paste your ssh key
