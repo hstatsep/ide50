@@ -41,6 +41,10 @@ ssh -T git@github.com
 You should see
 > Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
 
+**You're done setting up SSH keys! Now you can easily push to Github.**
+<br>
+<br>
+
 _WARNING: ONLY if you made a mistake, type this command to DELETE your SSH keys and start over:_
 
 `rm -rf ~/.ssh`
