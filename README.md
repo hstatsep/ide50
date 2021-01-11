@@ -21,7 +21,7 @@ Go to [ide.cs50.io](https://ide.cs50.io/) and login with your Github account
   * Example: `git config --global user.name "John Doe"`
 
 #### Generating and connecting an SSH key
-* Make sure you are in the root directory by doing `cd`
+* Copy/paste the following:
 * `echo -e "\n" | ssh-keygen -t rsa -N ""`
 * `cat ~/.ssh/id_rsa.pub` then copy _all_ of the result to your clipboard (it should start with `ssh-rsa`)
 * Go to https://github.com/settings/ssh/new
