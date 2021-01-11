@@ -70,3 +70,8 @@ _WARNING: ONLY if you made a mistake, type this command to DELETE your SSH keys 
   * A red dot means there are unsaved changes
   * After you stop typing, the red dot will turn back to an **X**
 * You can also force a save by going to **File** > **Save** or using the keyboard shortcut (i.e. <kbd>⌘</kbd>+<kbd>S</kbd>)
+
+## Wrap Lines
+* If your code goes beyond your window and you would like to see your text "wrap", click the gear icon and enable *Wrap Lines*
+* You might need to do this every time you work on a new file
+![](wrap-lines.png)
