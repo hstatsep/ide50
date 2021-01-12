@@ -65,7 +65,7 @@ _WARNING: ONLY if you made a mistake, type this command to DELETE your SSH keys 
 ## Enabling Auto-Save
 * If you closed the Preferences tab, re-open it: **CS50 IDE** > Preferences
 * When the new window opens, on the LEFT side, scroll down and click **Experimental**
-* On the RIGHT side, change the **Auto-Save** dropdown to **On Delay**
+* On the RIGHT side, change the **Auto-Save** dropdown to **After Delay**
 * You're done!
   * This means that in the future, when editing a file, you will be see a red dot in the tab, next to the filename
   * A red dot means there are unsaved changes
