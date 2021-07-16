@@ -36,6 +36,7 @@ echo ' Hostname ssh.github.com' >> ~/.ssh/config
 echo ' Port 443' >> ~/.ssh/config
 echo ' StrictHostKeyChecking no' >> ~/.ssh/config
 ssh -T git@github.com
+echo
 
 ```
 * If you still see the last command in your terminal, press <kbd>ENTER</kbd>
